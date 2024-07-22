@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-title {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px;
+    color: white;
+}
+
+nav {
+    background-color: #101220;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 64px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-row h2 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+}
+
+.nav-title h1 {
+    font-family:  "Poppins", sans-serif;
+}
+.nav-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-row button {
+    background-color: #BFAFF2;
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    background-color: #101220fb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.main-row h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.main-row p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    width: 293px;
+    text-align: center;
+}
+
+.info {
+    background-color: #232028;
+    border-radius: 32px;
+    height: 240px;
+    padding-top: 59px;
+}
+
+.main-row {
+    position: relative;
+    margin-top: 400px;
+}
+
+.main-row img {
+    position: absolute;
+    right: 30px;
+    top: -270px;
+}
+
+.info-2 {
+    background-color: #232028;
+    border-radius: 32px;
+    height: 240px;
+    padding-top: 59px;
+}
+
+.main-row-2 h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.main-row-2 p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    width: 293px;
+    text-align: center;
+}
+
+.main-row-2 {
+    position: relative;
+    margin-top: 400px;
+}
+
+.main-row-2 img {
+    position: absolute;
+    right: 30px;
+    top: -270px;
+}
+
+.main-row-3 h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.main-row-3 p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    width: 293px;
+    text-align: center;
+}
+
+.info-3 {
+    background-color: #232028;
+    border-radius: 32px;
+    height: 240px;
+    padding-top: 59px;
+}
+
+.main-row-3 {
+    position: relative;
+    margin-top: 400px;
+}
+
+.main-row-3 img {
+    position: absolute;
+    right: 30px;
+    top: -270px;
+}
+
+.main-row-4 h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.main-row-4 p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: white;
+    width: 293px;
+    text-align: center;
+}
+
+.info-4 {
+    background-color: #232028;
+    border-radius: 32px;
+    height: 240px;
+    padding-top: 59px;
+}
+
+.main-row-4 {
+    position: relative;
+    margin-top: 400px;
+}
+
+.main-row-4 img {
+    position: absolute;
+    right: 30px;
+    top: -270px;
+}
+
+footer {
+    background-color: #0e0f1b;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.footer-title {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: white
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
